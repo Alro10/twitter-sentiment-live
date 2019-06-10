@@ -1,2 +1,3 @@
-# IBM-data-test
-IBM data science test - tweets sentiment analysis
+# IBM data science test
+
+The challenge is about to create an amazing tweets sentiment analysis dashboard.

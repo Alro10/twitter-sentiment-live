@@ -20,6 +20,16 @@ The challenge is about to create amazing tweets sentiment analysis dashboards fr
 
 - Clone repository: `git clone https://github.com/Alro10/twitter-sentiment-live.git`
 - Install `requirements.txt` using `pip3 install -r requirements.txt`
+  - It is recommending to install in virtual environment:
+    ```
+    sudo apt install python3-venv
+
+    python3 -m venv env
+
+    source env/bin/activate    
+
+    ```
+
 - Fill in your Twitter App credentials to `twitter_stream.py`. Go to [**apps.twitter.com**](https://apps.twitter.com/) to set that up if you need to.
 - Run `twitter_stream.py` to build database
 - If you're using this locally, you can run the application with the `dev_server.py` script. If you want to deploy this to a webserver, see my [**deploying Dash application tutorial**](https://pythonprogramming.net/deploy-vps-dash-data-visualization/)

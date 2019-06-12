@@ -23,7 +23,7 @@ import itertools
 from textblob import TextBlob
 from googletrans import Translator
 
-translator = Translator()
+
 analyzer = SentimentIntensityAnalyzer()
 
 #consumer key, consumer secret, access token, access secret.
@@ -193,7 +193,7 @@ Timer(1, generate_trending).start()
 while True:
 
     try:
-        #translator = Translator()
+        translator = Translator()
         auth = OAuthHandler(ckey, csecret)
         auth.set_access_token(atoken, asecret)
         twitterStream = Stream(auth, listener(lock))
@@ -202,4 +202,4 @@ while True:
         #twitterStream.filter(track=["a","e","i","o","u"])
     except Exception as e:
         print(str(e))
-        time.sleep(2)
+        time.sleep(5)

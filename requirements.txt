@@ -1,5 +1,6 @@
 tweepy
 vaderSentiment
+googletrans
 unidecode
 dash==0.30.0
 dash-core-components==0.38.0

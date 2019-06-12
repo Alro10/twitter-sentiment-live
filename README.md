@@ -2,6 +2,10 @@
 
 The challenge is about to create amazing tweets sentiment analysis dashboards from Portuguese language, specific Brazil. The app classifies stream tweets writing in Portuguese and show a real-time dashboard.
 
+<p align="center">
+<img src="https://github.com/Alro10/twitter-sentiment-live/blob/master/dash.png" alt="alt text" width="80%" height="60%">
+</p>
+
 ## Contents
 
 - `dash_mess.py` - This is currently the main front-end application code. Contains the dash application layouts, logic for graphs, interfaces with the database...etc. Name is descriptive of the overall state of code :) ...this code is setup to run on a flask instance. If you want to clone this and run it locally, you will be using the `dev_server.py`

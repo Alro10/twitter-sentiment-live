@@ -10,7 +10,7 @@ The challenge is about to create amazing tweets sentiment analysis dashboards fr
 
 - Streaming tweets writing in Portuguese, tweepy.
 - Translate to English using googletrans API.
-- Sentiment analysis with (VADER approach)[https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122]. All tweets being classified in just two classes: Positive and Negative.
+- Sentiment analysis with [VADER approach](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122). All tweets being classified in just two classes: Positive and Negative.
 - Make a dashboard using dash an plotly.
 
 ## Contents

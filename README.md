@@ -1,6 +1,6 @@
 # IBM data science test
 
-The challenge is about to create amazing tweets sentiment analysis dashboards from Portuguese language, specific Brazil. The app classifies stream tweets writing in Portuguese and show a real-time dashboard.
+The challenge is about to create amazing stream tweets sentiment analysis dashboards from Portuguese language. 
 
 <p align="center">
 <img src="https://github.com/Alro10/twitter-sentiment-live/blob/master/live.png" alt="alt text" width="100%" height="100%">

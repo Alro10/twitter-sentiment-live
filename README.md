@@ -1,6 +1,6 @@
-# Twitter sentiment analysis: LIVE (IBM data science test)
+# Twitter sentiment analysis: LIVE
 
-The challenge is about to create amazing stream tweets sentiment analysis dashboards from Portuguese language.
+The challenge is about to create amazing stream tweets sentiment analysis dashboards from Portuguese language. This is a test for becoming a Data Scientist at IBM
 
 <p align="center">
 <img src="https://github.com/Alro10/twitter-sentiment-live/blob/master/live.png" alt="alt text" width="100%" height="100%">

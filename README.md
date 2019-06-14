@@ -1,4 +1,4 @@
-# IBM data science test
+# Twitter sentiment analysis: LIVE (IBM data science test)
 
 The challenge is about to create amazing stream tweets sentiment analysis dashboards from Portuguese language.
 

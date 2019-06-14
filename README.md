@@ -11,7 +11,7 @@ The challenge is about to create amazing stream tweets sentiment analysis dashbo
 - Streaming tweets writing in Portuguese, tweepy.
 - Translate to English using googletrans API.
 - Sentiment analysis with [VADER approach](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122). All tweets being classified in just two classes: Positive and Negative.
-- Make a dashboard using dash an plotly.
+- Make dashboards using dash an plotly.
 
 ## Contents
 
@@ -61,4 +61,4 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ```
 - Run on webserver.
 - Run inside docker containers.
-- Use other approaches for sentiment analysis, such as SVM, CNN, LSTM, etc. But we will need a database in Portuguese for training the algorithm, I didn't find a good database.
+- Use other approaches for sentiment analysis, such as CNN, LSTM, etc. But we will need a database in Portuguese for training the algorithm, I didn't find a good database.

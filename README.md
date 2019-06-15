@@ -19,7 +19,7 @@ The challenge is about to create amazing stream tweets sentiment analysis dashbo
 
 - `dev_server.py` - If you wish to run this application locally, on the dev server, run via this instead.
 
-- `twitter_stream.py` - This should run in the background of your application. This is what streams tweets from Twitter, storing them into the sqlite3 database. If you want to classify tweets in other language just change `languages=["pt"]` in `twitterStream.filter(languages=["pt"],track=["a","e","i","o","u"])`
+- `twitter_stream.py` - This should run in the background of your application. This is what streams tweets from Twitter, storing them into the sqlite3 database. If you want to classify tweets in other language just change `languages=["pt"]` and `track=["a","e","i","o","u"]` in `twitterStream.filter()`
 
 - `config.py` - Meant for many configurations, but right now it just contains stop words. Words we don't intend to ever count in the "trending"
 

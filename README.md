@@ -54,7 +54,7 @@ sudo apt-get update && sudo apt-get install sqlite3
 
 ## TODO
 
-- This app uses googletrans API, see requirements, and an issue sometimes occurs when you called the API. Described in [googletrans/issue](https://github.com/ssut/py-googletrans/issues/113) but not solved yet. I try to resolve it as soon as possible.
+- This app uses googletrans API, see requirements, and an issue sometimes occurs when you called the API and apparently the reason may be the proxy configuration. Described in [googletrans/issue](https://github.com/ssut/py-googletrans/issues/113) but not solved yet.
 ```
 raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

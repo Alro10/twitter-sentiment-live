@@ -61,4 +61,5 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ```
 - Run on webserver.
 - Run inside docker containers.
+- Add neutral sentiment, that is possible since VADER is able to do.
 - Use other approaches for sentiment analysis, such as CNN, LSTM, etc. But we will need a database in Portuguese for training the algorithm, I didn't find a good database.

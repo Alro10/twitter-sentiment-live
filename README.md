@@ -30,14 +30,17 @@ The challenge is about to create amazing stream tweets sentiment analysis dashbo
 ## Quick compilation
 
 - Clone repository: `git clone https://github.com/Alro10/twitter-sentiment-live.git`
-- Install `requirements.txt` using `pip3 install -r requirements.txt`
-  - It is recommending to install in virtual environment:
+- Install requirements using `pip3 install -r requirements.txt` or
+
+  - Install in virtual environment:
     ```
     sudo apt install python3-venv
 
     python3 -m venv env
 
-    source env/bin/activate    
+    source env/bin/activate
+
+    pip install -r requirements.txt    
 
     ```
 
@@ -59,9 +62,9 @@ sudo apt-get update && sudo apt-get install sqlite3
 raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ```
-- Run on webserver.
+- Deploy on webserver.
 - Run inside docker containers.
 - Add neutral sentiment, that is possible since VADER is able to do.
-- Use other approaches for sentiment analysis, such as CNN, LSTM, etc. But we will need a database in Portuguese for training the algorithm, I didn't find a good database.
+- Use other approaches for sentiment analysis, such as ConvNets, LSTM, etc. But we will need a database in Portuguese for training the algorithm, I didn't find a good database.
 
 *Send a pull request or open an issue are very welcome!* :+1:

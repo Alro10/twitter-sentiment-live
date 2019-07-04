@@ -54,6 +54,7 @@ sudo add-apt-repository ppa:jonathonf/backports
 sudo apt-get update && sudo apt-get install sqlite3
 ```
 - Consider running the `db-truncate.py` from time to time (or via a cronjob), to keep the database reasonably sized. In its current state, the database really doesn't need to store more than 2-3 days of data most likely.
+- Accuracy of method: ```A1*A2 ```
 
 ## TODO
 

@@ -10,7 +10,7 @@ The challenge is about to create amazing stream tweets sentiment analysis dashbo
 
 - Streaming tweets writing in Portuguese, [tweepy](https://github.com/tweepy/tweepy).
 - Translate to English using [py-googletrans](https://github.com/ssut/py-googletrans).
-- Sentiment analysis with [VADER approach](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122) [[Python implementation](https://github.com/cjhutto/vaderSentiment)]. All tweets being classified in just two classes: Positive and Negative.
+- Sentiment analysis with [VADER approach](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122) [[Python implementation](https://github.com/cjhutto/vaderSentiment)]. All tweets being classified in just two classes: Positive and Negative. Neutral will be also available soon.
 - Make dashboards using [Dash](https://dash.plot.ly/).
 
 ## Contents

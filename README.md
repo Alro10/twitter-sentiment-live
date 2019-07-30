@@ -1,4 +1,5 @@
 # Twitter sentiment analysis: LIVE
+[![PRsWelcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 The challenge is about to create amazing stream tweets sentiment analysis dashboards from Portuguese language. This repository is based on [Sentdex-socialsentiment](https://github.com/Sentdex/socialsentiment)
 

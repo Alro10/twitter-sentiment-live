@@ -35,7 +35,7 @@ The challenge is about to create amazing stream tweets sentiment analysis dashbo
 
   - Install in virtual environment:
     ```
-    sudo apt install python3-venv
+    sudo apt install python3-venv # just in case if you do not install virtualenv preview
 
     python3 -m venv env
 

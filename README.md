@@ -46,7 +46,7 @@ The challenge is about to create amazing stream tweets sentiment analysis dashbo
     ```
 
 - Fill in your Twitter App credentials to `twitter_stream.py`. Go to [**apps.twitter.com**](https://apps.twitter.com/) to set that up if you need to.
-- Run `twitter_stream.py` to build database and after `3-4 minutes` running `dev_server.py`, since you need the database. If you're using this locally.
+- Run `twitter_stream.py` to build database and after **3-4 minutes** running `dev_server.py`, since you need the database. If you're using this locally.
 - If you want to deploy this to a webserver, see [**deploying Dash application tutorial**](https://pythonprogramming.net/deploy-vps-dash-data-visualization/)
 - You might need the latest version of sqlite3. Install as follows to avoid some issues.
 

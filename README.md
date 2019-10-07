@@ -64,7 +64,7 @@ sudo apt-get update && sudo apt-get install sqlite3
 raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ```
-- Deploy on webserver.
+- Deploy on webserver, such as: [flask-rest-example](https://github.com/mnguyenngo/flask-rest-setup)
 - Run inside docker containers.
 - Add neutral sentiment, that is possible since VADER is able to do.
 - Use other approaches for sentiment analysis, such as ConvNets, LSTM, etc. But we will need a database in Portuguese for training the algorithm, I didn't find a good database.

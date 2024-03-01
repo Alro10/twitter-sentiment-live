@@ -4,7 +4,7 @@ googletrans
 unidecode
 dash==0.30.0
 dash-core-components==0.38.0
-dash-html-components==0.13.2
+dash-html-components==2.0.0
 dash-renderer==0.15.0
 plotly
 pandas
